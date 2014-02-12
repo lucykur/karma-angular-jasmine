@@ -1,5 +1,5 @@
 ﻿define([], function() {
-    return function($scope) {
+    return function ($scope) {
         $scope.hello = "hello";
     };
 });

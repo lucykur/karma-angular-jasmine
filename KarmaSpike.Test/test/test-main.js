@@ -12,6 +12,7 @@ requirejs.config({
     paths: {
         'jquery': '../lib/jquery',
         'underscore': '../lib/underscore',
+        'angular-mocks': '../lib/bower-components/angular-mocks/angular-mocks'
     },
 
     shim: {

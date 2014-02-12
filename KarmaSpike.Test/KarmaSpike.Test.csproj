@@ -46,6 +46,7 @@
   <ItemGroup>
     <Content Include="karma.conf.js" />
     <Content Include="test\appSpec.js" />
+    <Content Include="test\controllers\karmaControllerSpec.js" />
     <Content Include="test\somethingSpec.js" />
     <Content Include="test\test-main.js" />
   </ItemGroup>

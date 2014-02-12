@@ -57,10 +57,16 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="index.html" />
+    <Content Include="lib\bower_components\angular-mocks\angular-mocks.js" />
+    <Content Include="lib\bower_components\angular\angular-csp.css" />
+    <Content Include="lib\bower_components\angular\angular.js" />
+    <Content Include="lib\bower_components\angular\angular.min.js" />
     <Content Include="lib\jquery.js" />
     <Content Include="lib\require.js" />
     <Content Include="lib\underscore.js" />
     <Content Include="src\app.js" />
+    <Content Include="src\controllers\karma-controller.js" />
     <Content Include="src\main.js" />
     <Content Include="src\something.js" />
     <Content Include="Web.config" />
@@ -69,6 +75,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="lib\bower_components\angular\.bower.json" />
+    <Content Include="lib\bower_components\angular\angular.min.js.gzip" />
+    <Content Include="lib\bower_components\angular\angular.min.js.map" />
+    <Content Include="lib\bower_components\angular\bower.json" />
+    <Content Include="lib\bower_components\angular\README.md" />
+    <Content Include="lib\bower_components\angular-mocks\.bower.json" />
+    <Content Include="lib\bower_components\angular-mocks\bower.json" />
+    <Content Include="lib\bower_components\angular-mocks\README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
